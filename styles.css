@@ -1,0 +1,35 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    height : 400px;
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 4px double black;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
+    color:white;
+}
+button{
+    color:orange;
+}
